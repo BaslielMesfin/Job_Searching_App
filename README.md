@@ -1,18 +1,29 @@
-## Getting Started
+# Job Seeker App
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A desktop based job seeking and job posting app built using Java. This project features user authentication, job posting, job searching functionality, and separate dashboards for the job seeker and the employer.
 
-## Folder Structure
+## 💡 Features
+- User registration and login system
+- Employer dashboard for posting and managing posted jobs
+- Job seeker dashboard to search and apply for jobs
+- View list of applicants to a posted job
+- Simple local database integration using SQLite
 
-The workspace contains two folders by default, where:
+## 🛠️ Tech Stack
+- Java (Backend)
+- Java Swing and AWT (Frontend)
+- SQLite (local database)
+- MVC Architecture (Model-View-Controller)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📁 Project Structure
+- 'src/' - Contains Java source files organized into controller, model, view, app and database packages
+- 'lib/' - Contains SQLite JDBC driver
+- 'bin/' - Complied class files
+- 'job.db' - SQLite database file
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🚀 How to Run
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/job-portal-app.git
+   cd job-portal-app
